@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,400&display=swap');
+*{ 
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.btn{
+    text-decoration: none;
+    background-color: brown;
+    color: antiquewhite;
+    padding: 10px 30px;
+    border-radius: 20px;
+    
+}
+.btn:hover{ 
+    background-color: antiquewhite;
+    border: 2px,solid,brown;
+    color: black ;
+}
+header{
+    background: linear-gradient(45deg ,rgba(255, 166, 0, 0.24),rgba(152, 40, 40, 0.426)),
+    url(image/Qatar-2022-s-32-teams-graphic.webp);
+    background-repeat: no-repeat;
+    height: 830px;
+    background-size: 100%;
+    color: whitesmoke;
+     display: flex;  
+     /* justify-content: center;  */
+    /* align-items:  center;  */
+     /* text-align: center;  */
+
+}
+.bar{
+    display: block;
+    width: 40%;
+      margin: 20px auto; 
+   
+    
+}
+   .navbar{
+     display: inline-block;
+   }
+   .navbar li{
+    display: inline-block;
+   }
+   .navbar li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 80px 26px;
+   }
+   .navbar li a:hover 
+   {
+    color: brown;
+    text-decoration: underline;
+   }
+
+#header h2 {
+    font-size: 30px;
+}
+#header h1 {
+    font-size: 50px;
+}
+#header p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+#service {
+    margin: 30px 0px;
+    width: 100%;
+}
+#service h2 {
+    text-align: center;
+    font-size: 30px;
+    color: brown;
+    font-style: italic;
+   
+}
+.container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+.half-div{
+    width: 50%;
+    margin: auto;
+    position: relative;
+    
+    
+
+}
+.half-div img
+{
+    width:95%
+    
+
+}
+
+
+
+.fa-solid{
+    font-size: 20px; }
+/* design style */
+    #design {
+        margin: 30px 0px;
+    }
+    #design h2 {
+        text-align: center;
+        font-size: 30px;
+        color: brown;
+        font-style: italic;
+    }
+    .p-cards{
+        width: 90%;
+        margin: 20px auto;
+         display: grid; 
+         grid-template-columns: repeat(3,1fr); 
+         gap: 20px; 
+    }
+    .card{
+        text-align: center;
+        box-shadow: burlywood 5px 5px 40px;
+        padding: 60px 20px;
+    }
+    .card img{
+        margin: 20px 0px;
+      width: 100%;
+      height: auto;
+        
+    }
+  .card p{
+    margin-bottom: 20px;
+  }
+  .card h3{
+   
+   color: brown;
+  }
+
+/* style registration */
+
+/* #registration{
+    width: 100%;
+    margin: 30px 0px;
+}
+#registration h2
+{
+    text-align: center;
+    font-size: 30;
+} */
+/* .contact{
+    width: 60%;
+    background-color: palevioletred;
+    margin: 10px auto;
+    padding: 20px 0px;
+} */
+/* .contact input{
+    display: block;
+    width: 50%;
+    margin: 20px auto;
+    padding: 10px 10px;
+} */
+/* .contact a{
+    display: block;
+    width: 30%;
+    margin: 20px auto;
+    text-align: center;
+} */
+/* fotter style */
+footer{
+    width: 100%;
+    height: 70px;
+    background-color:grey;
+    color: white;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
